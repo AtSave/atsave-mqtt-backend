@@ -9,7 +9,7 @@ MQTT_USERNAME = "james"
 MQTT_PASSWORD = "TSN7d74ksHgswEHB"
 
 # 後端 ingest API
-INGEST_API = "atsave-mqtt-backend-production.up.railway.app:8000/ingest"
+INGEST_API = "https://atsave-mqtt-backend-production.up.railway.app:8000/ingest"
 
 # MQTT 主題
 MQTT_TOPIC = "/atsave/+/kpi"
